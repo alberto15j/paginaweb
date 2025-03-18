@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <title> {% block title %}Inicio{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+        
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/servicios/">Servicios</a></li>
+                <li><a href="/contactos/">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenido a ala pagina web</h1>
+        <h2>Jesus Alberto Cruz Metelin</h2>
+        <img src="{% static 'img/img1.jpeg' %}" alt="">
+        
+    </header>
+    {% block contain %}{% endblock %}
+    <body background="{% static 'img/img2.jpg' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20x;
+font-family: serif;
+    
+
+}
+h1{
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20x;
+    font-family: Arial, sans-serif;
+    
+
+}
+img{
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #333;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #f46161; /* Color naranja suave al pasar el mouse */
+}
+
+
+
+  
+
